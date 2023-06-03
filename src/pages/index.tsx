@@ -7,6 +7,7 @@ export default function index({ course }) {
 
 export async function getStaticProps() {
   const { course } = await fetchCourse();
+  // console.log({course})
   return {
     props: course,
   };

@@ -9,6 +9,10 @@ export const graphqlClient = new GraphQLClient("https://graphql.datocms.com", {
 });
 
 export async function fetchCourse() {
-  const course = await graphqlClient.request(homeQuery);
-  return { course };
+  try {
+    const course = await graphqlClient.request(homeQuery);
+    return { course };
+  } catch (err) {
+    console.log(err);
+  }
 }

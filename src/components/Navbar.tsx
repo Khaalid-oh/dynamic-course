@@ -47,7 +47,7 @@ function Navbar({ details }) {
           </div>
         )}
         <a
-          href="#"
+          href="login"
           className="hover:text-yellow-400 p-2 transition-all delay-50 ease-in"
         >
           {details.login}
