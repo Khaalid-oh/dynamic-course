@@ -34,7 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 - Designed inspired by Better.Dev
 - Dato-CMS has headless CMS
-- Graphql
+- Graphql/ DatoQl
 - NextAuth for authentication 
 - TailwindCSS
 - Typescript
