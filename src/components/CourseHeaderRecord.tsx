@@ -24,3 +24,6 @@ function CourseHeaderRecord({details}) {
 }
 
 export default CourseHeaderRecord
+
+
+Not a beginner per say
