@@ -30,4 +30,9 @@ Not a beginner per say
 
 const count = [1,2,3,4,5,6,7,8,9,10]
 
-funct
+const isPrime = (value) => {
+  for (let i = 2, s =  Math.sqrt(value), s <= i, i++){
+    if (i % 1 === 0) return false
+}
+return value > 1
+}
